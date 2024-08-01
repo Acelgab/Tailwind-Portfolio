@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="output.css">
+  <title>Acel Margallo - Code Crafts</title>
+</head>
+<body>
+
+<!--HERO SECTION-->
+<section class="min-h-screen text-white">
+  <div class="bg-gray-100">
+    <header class="absolute inset-x-0 top-0 z-50">
+      <nav class="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+        <div class="flex lg:flex-1">
+          <span>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+              <path fill-rule="evenodd" d="M9 4.5a.75.75 0 0 1 .721.544l.813 2.846a3.75 3.75 0 0 0 2.576 2.576l2.846.813a.75.75 0 0 1 0 1.442l-2.846.813a3.75 3.75 0 0 0-2.576 2.576l-.813 2.846a.75.75 0 0 1-1.442 0l-.813-2.846a3.75 3.75 0 0 0-2.576-2.576l-2.846-.813a.75.75 0 0 1 0-1.442l2.846-.813A3.75 3.75 0 0 0 7.466 7.89l.813-2.846A.75.75 0 0 1 9 4.5ZM18 1.5a.75.75 0 0 1 .728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 0 1 0 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 0 1-1.456 0l-.258-1.036a2.625 2.625 0 0 0-1.91-1.91l-1.036-.258a.75.75 0 0 1 0-1.456l1.036-.258a2.625 2.625 0 0 0 1.91-1.91l.258-1.036A.75.75 0 0 1 18 1.5ZM16.5 15a.75.75 0 0 1 .712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 0 1 0 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 0 1-1.422 0l-.395-1.183a1.5 1.5 0 0 0-.948-.948l-1.183-.395a.75.75 0 0 1 0-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0 1 16.5 15Z" clip-rule="evenodd" />
+            </svg>
+          </span>
+        </div>
+        <div class="hidden lg:flex lg:items-center lg:justify-center lg:w-full">
+          <div class="flex gap-x-12">
+            <a href="#" class="text-sm font-semibold leading-5 px-2 py-2 rounded-lg hover:bg-yellow-500 hover:bg-opacity-30 transition-colors hover:rounded-xl">About Me</a>
+            <a href="#" class="text-sm font-semibold leading-5 px-2 py-2 rounded-lg hover:bg-yellow-500 hover:bg-opacity-30 transition-colors hover:rounded-xl">Skills</a>
+            <a href="#" class="text-sm font-semibold leading-5 px-2 py-2 rounded-lg hover:bg-yellow-500 hover:bg-opacity-30 transition-colors hover:rounded-xl">Projects</a>
+            <a href="#" class="text-sm font-semibold leading-5 px-2 py-2 rounded-lg hover:bg-yellow-500 hover:bg-opacity-30 transition-colors hover:rounded-xl">Contact</a>
+          </div>
+        </div>
+      </nav>
+      <!-- Mobile menu, show/hide based on menu open state. -->
+      <div class="lg:hidden" role="dialog" aria-modal="true">
+        <!-- Background backdrop, show/hide based on slide-over state. -->
+        <div class="fixed inset-0 z-50"></div>
+        <div class="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
+          <div class="flex items-center justify-between">
+            <a href="#" class="-m-1.5 p-1.5">
+              <span class="sr-only">Acel Margallo - Code Crafts</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                <path fill-rule="evenodd" d="M9 4.5a.75.75 0 0 1 .721.544l.813 2.846a3.75 3.75 0 0 0 2.576 2.576l2.846.813a.75.75 0 0 1 0 1.442l-2.846.813a3.75 3.75 0 0 0-2.576 2.576l-.813 2.846a.75.75 0 0 1-1.442 0l-.813-2.846a3.75 3.75 0 0 0-2.576-2.576l-2.846-.813a.75.75 0 0 1 0-1.442l2.846-.813A3.75 3.75 0 0 0 7.466 7.89l.813-2.846A.75.75 0 0 1 9 4.5ZM18 1.5a.75.75 0 0 1 .728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 0 1 0 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 0 1-1.456 0l-.258-1.036a2.625 2.625 0 0 0-1.91-1.91l-1.036-.258a.75.75 0 0 1 0-1.456l1.036-.258a2.625 2.625 0 0 0 1.91-1.91l.258-1.036A.75.75 0 0 1 18 1.5ZM16.5 15a.75.75 0 0 1 .712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 0 1 0 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 0 1-1.422 0l-.395-1.183a1.5 1.5 0 0 0-.948-.948l-1.183-.395a.75.75 0 0 1 0-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0 1 16.5 15Z" clip-rule="evenodd" />
+              </svg>
+            </a>
+          </div>
+          <div class="mt-6 flow-root">
+            <div class="-my-6 divide-y divide-gray-500/10">
+              <div class="space-y-2 py-6">
+                <a href="#" class="block text-sm font-semibold leading-5 px-2 py-2 rounded-lg hover:bg-yellow-500 hover:bg-opacity-30 transition-colors hover:rounded-xl">About Me</a>
+              <a href="#" class="block text-sm font-semibold leading-5 px-2 py-2 rounded-lg hover:bg-yellow-500 hover:bg-opacity-30 transition-colors hover:rounded-xl">Skills</a>
+              <a href="#" class="block text-sm font-semibold leading-5 px-2 py-2 rounded-lg hover:bg-yellow-500 hover:bg-opacity-30 transition-colors hover:rounded-xl">Projects</a>
+              <a href="#" class="block text-sm font-semibold leading-5 px-2 py-2 rounded-lg hover:bg-yellow-500 hover:bg-opacity-30 transition-colors hover:rounded-xl">Contact</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div style="background-image: url('/herobg.png'); background-size: cover; background-position: center; height: 100vh; display: flex; flex-direction: column; justify-content: center;">
+      <div class="flex flex-col justify-center items-center flex-grow">
+        <div class="text-center">
+          <div class="mb-5 inline-block font-thin text-lg px-3 py-1 rounded-full">Code Crafts</div>
+          <h1 class="text-6xl font-bold">Acel Margallo</h1>
+          <p class="mt-4 text-xl font-thin">Crafting digital experiences.</p>
+        </div>
+      </div>
+      <!-- button -->
+      <div class="mt-auto text-center mb-20">
+        <a href="#" class="rounded-md bg-transparent border-2 border-indigo-300 hover:text-black px-3.5 py-2.5 text-sm font-semibold text-shadow-sm hover:bg-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+          View my work
+        </a>
+      </div>
+    </div>
+    
+</section>
+
+<!--ABOUT ME SECTION-->
+<section class="bg-yellow-50 py-12">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-col items-center text-center">
+      <!-- Title -->
+      <h2 class="text-4xl font-bold mb-4 text-blue-900">About Me</h2>
+      
+      <!-- Description -->
+      <p class="text-lg font-thin text-gray-700 mb-6">
+        Hello, I’m Acel Margallo, a passionate web developer with a love for creating engaging and user-friendly digital experiences. With a background in designing and building websites, I focus on combining creativity with functionality to bring ideas to life.
+      </p>
+
+</section>
+</body>
+</html>
