@@ -37,70 +37,72 @@
   <title>Acel Margallo - Code Crafts</title>
 </head>
 <body>
-
-<header class="sticky top-0 w-full bg-gray-950 opacity-31  text-white p-1 z-10">
-  <nav class="flex items-center justify-between  aria-label="Global">
-      <div class="flex lg:flex-1 items-center text-yellow-500">
-        <span class="flex gap-x-1 ">
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  fill="currentColor" class="size-6" >
-            <path fill-rule="evenodd" d="M9 4.5a.75.75 0 0 1 .721.544l.813 2.846a3.75 3.75 0 0 0 2.576 2.576l2.846.813a.75.75 0 0 1 0 1.442l-2.846.813a3.75 3.75 0 0 0-2.576 2.576l-.813 2.846a.75.75 0 0 1-1.442 0l-.813-2.846a3.75 3.75 0 0 0-2.576-2.576l-2.846-.813a.75.75 0 0 1 0-1.442l2.846-.813A3.75 3.75 0 0 0 7.466 7.89l.813-2.846A.75.75 0 0 1 9 4.5ZM18 1.5a.75.75 0 0 1 .728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 0 1 0 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 0 1-1.456 0l-.258-1.036a2.625 2.625 0 0 0-1.91-1.91l-1.036-.258a.75.75 0 0 1 0-1.456l1.036-.258a2.625 2.625 0 0 0 1.91-1.91l.258-1.036A.75.75 0 0 1 18 1.5ZM16.5 15a.75.75 0 0 1 .712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 0 1 0 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 0 1-1.422 0l-.395-1.183a1.5 1.5 0 0 0-.948-.948l-1.183-.395a.75.75 0 0 1 0-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0 1 16.5 15Z" clip-rule="evenodd" />
-          </svg><p class="flex text-yellow-500">acel.</p>
-        </span>
-      </div>
-    <!-- Hamburger Icon -->
-    <div class="lg:hidden">
-      <button id="menu-btn" class="flex items-center px-3 py-2 border rounded text-yellow-500 border-yellow-500">
-        <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-          <title>Menu</title>
-          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
-        </svg>
-      </button>
-    </div>
-    <!--Navigation-->
-      <div class="hidden lg:flex lg:items-center lg:justify-center lg:w-full">
-        <div class="flex gap-x-12">
-          <a href="#about-me" class="text-sm font-semibold leading-5 px-2 py-2 rounded-lg hover:bg-yellow-500 hover:bg-opacity-30 transition-colors hover:rounded-xl">About Me</a>
-          <a href="#my-skills" class="text-sm font-semibold leading-5 px-2 py-2 rounded-lg hover:bg-yellow-500 hover:bg-opacity-30 transition-colors hover:rounded-xl">Skills</a>
-          <a href="#projects" class="text-sm font-semibold leading-5 px-2 py-2 rounded-lg hover:bg-yellow-500 hover:bg-opacity-30 transition-colors hover:rounded-xl">Projects</a>
-          <a href="#" class="text-sm font-semibold leading-5 px-2 py-2 rounded-lg hover:bg-yellow-500 hover:bg-opacity-30 transition-colors hover:rounded-xl">Contact</a>
+  <header class="sticky top-0 w-full bg-gray-950 opacity-31  text-white p-1 z-10">
+    <nav class="flex items-center justify-between  aria-label="Global">
+        <div class="flex lg:flex-1 items-center text-yellow-500">
+          <span class="flex gap-x-1 ">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"  fill="currentColor" class="size-6" >
+              <path fill-rule="evenodd" d="M9 4.5a.75.75 0 0 1 .721.544l.813 2.846a3.75 3.75 0 0 0 2.576 2.576l2.846.813a.75.75 0 0 1 0 1.442l-2.846.813a3.75 3.75 0 0 0-2.576 2.576l-.813 2.846a.75.75 0 0 1-1.442 0l-.813-2.846a3.75 3.75 0 0 0-2.576-2.576l-2.846-.813a.75.75 0 0 1 0-1.442l2.846-.813A3.75 3.75 0 0 0 7.466 7.89l.813-2.846A.75.75 0 0 1 9 4.5ZM18 1.5a.75.75 0 0 1 .728.568l.258 1.036c.236.94.97 1.674 1.91 1.91l1.036.258a.75.75 0 0 1 0 1.456l-1.036.258c-.94.236-1.674.97-1.91 1.91l-.258 1.036a.75.75 0 0 1-1.456 0l-.258-1.036a2.625 2.625 0 0 0-1.91-1.91l-1.036-.258a.75.75 0 0 1 0-1.456l1.036-.258a2.625 2.625 0 0 0 1.91-1.91l.258-1.036A.75.75 0 0 1 18 1.5ZM16.5 15a.75.75 0 0 1 .712.513l.394 1.183c.15.447.5.799.948.948l1.183.395a.75.75 0 0 1 0 1.422l-1.183.395c-.447.15-.799.5-.948.948l-.395 1.183a.75.75 0 0 1-1.422 0l-.395-1.183a1.5 1.5 0 0 0-.948-.948l-1.183-.395a.75.75 0 0 1 0-1.422l1.183-.395c.447-.15.799-.5.948-.948l.395-1.183A.75.75 0 0 1 16.5 15Z" clip-rule="evenodd" />
+            </svg><p class="flex text-yellow-500">acel.</p>
+          </span>
         </div>
-      </nav>
+      <!-- Hamburger Icon -->
+      <div class="lg:hidden">
+        <button id="menu-btn" class="flex items-center px-3 py-2 border rounded text-yellow-500 border-yellow-500">
+          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <title>Menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
+          </svg>
+        </button>
+      </div>
+      <!--Navigation-->
+        <div class="hidden lg:flex lg:items-center lg:justify-center lg:w-full">
+          <div class="flex gap-x-12">
+            <a href="#about-me" class="text-sm font-semibold leading-5 px-2 py-2 rounded-lg hover:bg-yellow-500 hover:bg-opacity-30 transition-colors hover:rounded-xl">About Me</a>
+            <a href="#my-skills" class="text-sm font-semibold leading-5 px-2 py-2 rounded-lg hover:bg-yellow-500 hover:bg-opacity-30 transition-colors hover:rounded-xl">Skills</a>
+            <a href="#projects" class="text-sm font-semibold leading-5 px-2 py-2 rounded-lg hover:bg-yellow-500 hover:bg-opacity-30 transition-colors hover:rounded-xl">Projects</a>
+            <a href="#" class="text-sm font-semibold leading-5 px-2 py-2 rounded-lg hover:bg-yellow-500 hover:bg-opacity-30 transition-colors hover:rounded-xl">Contact</a>
+          </div>
+        </nav>
+  
+        <!-- Mobile Navigation Links -->
+    <div id="mobile-menu" class="hidden lg:hidden">
+      <a href="#about-me" class="block px-4 py-2 text-sm ">About Me</a>
+      <a href="#my-skills" class="block px-4 py-2 text-sm ">Skills</a>
+      <a href="#projects" class="block px-4 py-2 text-sm ">Projects</a>
+      <a href="#contact" class="block px-4 py-2 text-sm ">Contact</a>
+    </div>
+  
+    </header>
 
-      <!-- Mobile Navigation Links -->
-  <div id="mobile-menu" class="hidden lg:hidden">
-    <a href="#about-me" class="block px-4 py-2 text-sm ">About Me</a>
-    <a href="#my-skills" class="block px-4 py-2 text-sm ">Skills</a>
-    <a href="#projects" class="block px-4 py-2 text-sm ">Projects</a>
-    <a href="#contact" class="block px-4 py-2 text-sm ">Contact</a>
+<!-- HERO SECTION -->
+<section class="h-screen flex items-center justify-center text-white">
+  <div class="w-full h-full bg-cover bg-center flex flex-col justify-between" style="background-image: url('/herobg.png');">
+    <div class="flex flex-col justify-center items-center flex-grow">
+      <div class="text-center p-4 sm:p-8 md:p-12 lg:p-16">
+        <div class="mb-5 inline-block font-thin text-lg px-3 py-1 rounded-full">
+          Code Crafts
+        </div>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold">
+          Acel Margallo
+        </h1>
+        <p class="mt-4 text-base sm:text-lg md:text-xl font-thin">
+          Crafting digital experiences.
+        </p>
+      </div>
+    </div>
+    <!-- button -->
+    <div class="mt-auto text-center mb-20">
+      <a href="#" class="rounded-md bg-transparent border-2 border-indigo-300 hover:text-black px-3.5 py-2.5 text-sm font-semibold text-shadow-sm hover:bg-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
+        View my work
+      </a>
+    </div>
   </div>
-
-  </header>
-
-<!--HERO SECTION-->
-<section class= "h-screen items-center justify-center text-white">
-    
-    <div style="background-image: url('/herobg.png'); background-size: cover; background-position: center; height: 100vh; display: flex; flex-direction: column; justify-content: center;">
-      <div class="flex flex-col justify-center items-center flex-grow">
-        <div class="text-center">
-          <div class="mb-5 inline-block font-thin text-lg px-3 py-1 rounded-full">Code Crafts</div>
-          <h1 class="text-7xl font-bold">Acel Margallo</h1>
-          <p class="mt-4 text-xl font-thin">Crafting digital experiences.</p>
-        </div>
-      </div>
-      <!-- button -->
-      <div class="mt-auto text-center mb-20">
-        <a href="#" class="rounded-md bg-transparent border-2 border-indigo-300 hover:text-black px-3.5 py-2.5 text-sm font-semibold text-shadow-sm hover:bg-indigo-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-          View my work
-        </a>
-      </div>
-    </div>
-    
 </section>
 
-<!--ABOUT ME SECTION-->
-<section id="about-me" class="relative bg-gray-50 py-5 text-white pt-5 h-screen overflow-hidden">
-  
-  <div class="container bg-gray-200 lg:rounded-3xl mx-auto px-4 relative z-0 w-11/12 h-full">
+<!-- ABOUT ME SECTION -->
+<section id="about-me" class="relative bg-gray-50 py-5 h-auto w-full overflow-hidden">
+  <div class="container bg-gray-200 rounded-3xl px-4 relative w-11/12 mx-auto h-full">
     <div class="flex flex-col items-center text-center">
       
       <!-- Title -->
@@ -111,8 +113,8 @@
         <div class="grid grid-cols-1 md:grid-cols-2 gap-4 h-full">
           
           <!-- First Column -->
-            <div class="col-span-1 flex justify-center items-start mb-5 mt-5">
-              <svg viewBox="10 35 200 180" xmlns="http://www.w3.org/2000/svg">
+          <div class="col-span-1 flex justify-center items-start mb-8 mt-3">
+              <svg viewBox="10 25 200 180" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <clipPath id="blobClip">
                     <path d="M35.7,-45.9C46.9,-33.2,57.1,-22.5,59.9,-10C62.7,2.4,58.1,16.7,51.9,32.2C45.6,47.7,37.6,64.5,24,72.3C10.3,80.1,-9,78.8,-25,71.7C-41.1,64.6,-54,51.6,-55.7,37.5C-57.3,23.5,-47.8,8.4,-44.6,-7.5C-41.3,-23.3,-44.3,-39.8,-37.9,-53.4C-31.5,-67,-15.7,-77.7,-1.7,-75.7C12.3,-73.6,24.5,-58.7,35.7,-45.9Z" transform="translate(100 100)" />
@@ -122,9 +124,10 @@
                 <path d="M35.7,-45.9C46.9,-33.2,57.1,-22.5,59.9,-10C62.7,2.4,58.1,16.7,51.9,32.2C45.6,47.7,37.6,64.5,24,72.3C10.3,80.1,-9,78.8,-25,71.7C-41.1,64.6,-54,51.6,-55.7,37.5C-57.3,23.5,-47.8,8.4,-44.6,-7.5C-41.3,-23.3,-44.3,-39.8,-37.9,-53.4C-31.5,-67,-15.7,-77.7,-1.7,-75.7C12.3,-73.6,24.5,-58.7,35.7,-45.9Z" transform="translate(100 100)" fill="#CD5700" fill-opacity="1"/>
                 <!-- Image Clipped by Blob Path -->
                 <image href="/1x1.png" x="25" y="28" width="150" height="150" clip-path="url(#blobClip)" opacity="1"/>
+              </svg>
             </div>
-
-          <!-- Second Column -->
+  
+            <!-- Second Column -->
             <div class="col-span-1 mt-4 flex flex-col justify-between">
               <div>
                 <h3 class="text-left text-2xl font-bold text-gray-700">
@@ -137,21 +140,24 @@
               </div>
             </div>
           </div>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+  
 
 <!--SKILLS SECTION-->
 <section id="my-skills" class="relative flex flex-col items-center text-white py-5 px-5 overflow-hidden h-auto bg-gray-950">
   <div class="text-center mb-8">
      <!-- Title -->
      <h2 class="text-3xl mt-10 font-bold mb-5 text-yellow-500">My Skills</h2>
-     <p class="text-gray-200 mx-20 font-thin">Proficient in multiple programming languages, front-end and back-end development, and database management. Experienced with SDLC, agile methodologies, and version control. Knowledgeable in networking, operating systems, computer architecture, cybersecurity, and mobile development. Skilled with various development tools and software.</p>
+     <p class="text-gray-200 mx-4 sm:mx-8 md:mx-16 lg:mx-20 font-thin">
+      Proficient in multiple programming languages, front-end and back-end development, and database management. Experienced with SDLC, agile methodologies, and version control. Knowledgeable in networking, operating systems, computer architecture, cybersecurity, and mobile development. Skilled with various development tools and software.
+    </p>
   </div>
   <div id="slideshow" class="relative overflow-hidden w-full max-w-6xl mx-auto p-4">
     <div class="slide active">
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-5">
+      <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-5 gap-5">
         <!-- First row of cards -->
         <div class="card flex flex-col justify-center items-center bg-gray-900 shadow-lg p-4">
           <img src="/Skills/html.png" alt="HTML" class="w-24 h-24 object-cover">
@@ -197,7 +203,7 @@
       </div>
     </div>
     <div class="slide">
-      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-5">
+      <div class="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-5 gap-5">
         <!-- First row of cards -->
         <div class="card flex flex-col justify-center items-center bg-gray-900 shadow-lg p-4">
           <img src="/Skills/kotlin.png" alt="Kotlin" class="w-24 h-24 object-cover">
@@ -267,9 +273,9 @@
     <p class="text-gray-900 mx-20 font-thin">Explore my projects to learn more about what I do.</p>
   </div>
 
-  <div class="flex justify-center space-x-4">
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 px-4">
     <!-- Card 1 (element-ary) -->
-    <div class="bg-white text-black rounded-lg p-6 shadow-lg w-full md:w-1/3">
+    <div class="bg-white text-black rounded-lg p-6 shadow-lg">
       <div class="slideshow-container">
         <img src="/projects/elem1.png" alt="element-ary Image 1" class="slideshow-slide active-slide">
         <img src="/projects/elem2.png" alt="element-ary Image 2" class="slideshow-slide hidden">
@@ -281,7 +287,7 @@
     </div>
 
     <!-- Card 2 (PeriodCheck) -->
-    <div class="bg-white text-black rounded-lg p-6 shadow-lg w-full md:w-1/4">
+    <div class="bg-white text-black rounded-lg p-6 shadow-lg">
       <div class="slideshow-container">
         <img src="/projects/periodd1.png" alt="PeriodCheck Image 1" class="slideshow-slide active-slide" style="max-width: 100%; height: auto;">
         <img src="/projects/periodd.png" alt="PeriodCheck Image 2" class="slideshow-slide hidden" style="max-width: 90%; height: auto;">
@@ -293,7 +299,7 @@
     </div>
 
     <!-- Card 3 (NASA - Duplicate Website) -->
-    <div class="bg-white text-black rounded-lg p-6 shadow-lg w-full md:w-1/3">
+    <div class="bg-white text-black rounded-lg p-6 shadow-lg">
       <div class="slideshow-container">
         <img src="/projects/nasa1.png" alt="NASA - Duplicate Website Image 1" class="slideshow-slide active-slide">
         <img src="/projects/nasa2.png" alt="NASA - Duplicate Website Image 2" class="slideshow-slide hidden">
@@ -304,6 +310,50 @@
     </div>
   </div>
 </section>
+
+<!--CONTACT SECTION-->
+<section id="contact" class="relative bg-gray-900 py-10 text-gray-50">
+  <div class="text-center mb-8">
+    <!-- Title -->
+    <h2 class="text-3xl font-bold mb-5 text-yellow-500">Want to Work With Me?</h2>
+    <p class="text-gray-400 mx-4 sm:mx-8 md:mx-16 lg:mx-20 font-thin">I'd love to hear from you! Whether you have a question, want to collaborate, or just want to say hi, feel free to drop a message.</p>
+  </div>
+
+  <div class="max-w-4xl mx-auto p-6 bg-gray-800 rounded-lg shadow-lg">
+    <form action="#" method="POST" class="space-y-6">
+        <!-- Name -->
+        <div class="flex-1">
+          <label for="name" class="block text-sm font-medium text-gray-400">Name</label>
+          <input type="text" id="name" name="name" class="mt-1 block w-full bg-gray-700 border border-gray-600 rounded-md p-2.5 text-gray-300 focus:ring-yellow-500 focus:border-yellow-500">
+        </div>
+        <!-- Email -->
+        <div class="flex-1">
+          <label for="email" class="block text-sm font-medium text-gray-400">Email</label>
+          <input type="email" id="email" name="email" class="mt-1 block w-full bg-gray-700 border border-gray-600 rounded-md p-2.5 text-gray-300 focus:ring-yellow-500 focus:border-yellow-500">
+        </div>
+    
+
+      <!-- Subject -->
+      <div>
+        <label for="subject" class="block text-sm font-medium text-gray-400">Subject</label>
+        <input type="text" id="subject" name="subject" class="mt-1 block w-full bg-gray-700 border border-gray-600 rounded-md p-2.5 text-gray-300 focus:ring-yellow-500 focus:border-yellow-500">
+      </div>
+
+      <!-- Message -->
+      <div>
+        <label for="message" class="block text-sm font-medium text-gray-400">Message</label>
+        <textarea id="message" name="message" rows="6" class="mt-1 block w-full bg-gray-700 border border-gray-600 rounded-md p-2.5 text-gray-300 focus:ring-yellow-500 focus:border-yellow-500"></textarea>
+      </div>
+
+      <!-- Submit Button -->
+      <div class="text-center">
+        <button type="submit" class="px-6 py-2 rounded-md bg-yellow-500 text-gray-900 hover:bg-yellow-600 transition-colors">Send Message
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+
 
 <script>
   // JavaScript to handle the slideshow functionality
@@ -330,7 +380,8 @@
       }, 3000); // Change slide every 3 seconds
     });
   });
-
+</script>
+<script>
   document.addEventListener('DOMContentLoaded', () => {
     const menuBtn = document.getElementById('menu-btn');
     const mobileMenu = document.getElementById('mobile-menu');
@@ -339,8 +390,29 @@
       mobileMenu.classList.toggle('hidden');
     });
   });
-  
 </script>
+<script>
+  const slides = document.querySelectorAll('.slide');
+  let currentSlide = 0;
+
+  function showSlide(index) {
+    slides.forEach((slide, i) => {
+      slide.classList.toggle('active', i === index);
+    });
+  }
+
+  document.getElementById('next').addEventListener('click', () => {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+  });
+
+  document.getElementById('prev').addEventListener('click', () => {
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    showSlide(currentSlide);
+  });
+</script>
+  
+
 
 
 
